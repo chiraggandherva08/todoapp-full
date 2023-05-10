@@ -33,7 +33,7 @@ const checkTimer = (timedTasks) => {
         notification.innerHTML = "";
 
         allDone.map((task_) => {
-            notification.innerHTML += `${task_} <br>`;
+            notification.innerHTML += `• ${task_} [${timeObj}] : [${dateObj}] <br>`;
         })
 
         setTimeout(() => {
